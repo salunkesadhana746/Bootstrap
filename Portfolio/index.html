@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <style>
+        .text-tomato {
+            color: tomato;
+        }
+
+        .bg-tomato {
+            background-color: tomato;
+        }
+
+        .bg-info-light {
+            background-color: rgb(234, 251, 255);
+        }
+    </style>
+</head>
+
+<body>
+    <!--navbar-->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand text-black fw-bold fs-5" href="#">Dev<span class="text-tomato">.</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link fw-bold text-black fs-5" aria-current="page" href="#">Work</a>
+                    <a class="nav-link fw-bold text-black fs-5" href="#">Blog</a>
+                    <a class="nav-link fw-bold text-black fs-5" href="#">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="container-fluid">
+        <!--hero section-->
+        <section class="container-fluid">
+            <div class="container-lg">
+                <div class="row flex-md-row flex-column-reverse gap-3 gap-md-0">
+                    <div class="col-md-8 col-12 d-flex flex-column justify-content-center">
+                        <h1>Hi, I am Sadhana,</h1>
+                        <h1>Sofware Developar</h1>
+                        <p class="my-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Maiores, accusantium
+                            quo impedit ea
+                            in nobis. Nostrum, quos iure. Earum culpa ab voluptates sequi exercitationem eaque. Error
+                            distinctio molestiae pariatur amet!</p>
+                        <div>
+                            <button class="btn rounded-0 text-light bg-tomato px-3 py-2 fw-medium">Dowload
+                                Resume</button>
+                        </div>
+                    </div>
+                    <div class="col-8 col-md-4  d-flex justify-content-center mb-4 mb-lg-0">
+                        <img src="https://i.pinimg.com/736x/90/06/83/9006838f5f8347d83b65fea831b40eb9.jpg"
+                            class="img-fluid rounded-circle p-xl-5 p-lg-4 img-thumbnail" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Recent post-->
+        <section class="container-fluid bg-info-light py-4 my-3">
+            <div class="container-lg ">
+                    <div class="my-2 d-flex justify-content-lg-between justify-content-center">
+                        <span class="fs-5 fw-normal">Recent posts</span>
+                        <span class="fs-6 text-info fw-normal"><a href="#" class="text-decoration-none">View all</a></span>
+                    </div>
+                    <div class="row gap-3">
+                        <div class="col-12 col-md-6 bg-light py-4 px-3 rounded">
+                            <h4>Making a design system from scratch</h4>
+                            <div><p>12 Feb 2020 | Design, Pattern</p></div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                                Minima nisi, corrupti dolorum ipsam excepturi nobis debitis perspiciatis voluptate iusto ducimus, officia nostrum in quibusdam ab odio! Officiis voluptatem adipisci quaerat!</p>
+                        </div>
+                        <div class="col col-md-6 bg-light py-4 px-3 rounded">
+                            <h4>Making a design system from scratch</h4>
+                            <div><p>12 Feb 2020 | Design, Pattern</p></div>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima nisi, corrupti dolorum ipsam excepturi nobis debitis perspiciatis voluptate iusto ducimus, officia nostrum in quibusdam ab odio! Officiis voluptatem adipisci quaerat!</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </section>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
